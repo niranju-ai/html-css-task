@@ -1,0 +1,45 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+}
+.navbar img{
+    width: 50px;
+}
+.navbar button{
+    background-color: green;
+    color: white;
+}
+.header{
+    padding:20px;
+    
+}
+.main-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 100px;
+    background-color:#eaeef1;
+}
+.main-text button{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+}
+.main-text h1{
+    font-size: 40px;
+
+}
+.footer-content{   
+     justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.top{
+    justify-content: space-between;
+}
